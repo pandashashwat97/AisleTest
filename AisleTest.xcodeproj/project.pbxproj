@@ -12,7 +12,7 @@
 		85E0DCBD2CDE8A8700C4195B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E0DCBC2CDE8A8700C4195B /* Assets.xcassets */; };
 		85E0DCC02CDE8A8700C4195B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85E0DCBF2CDE8A8700C4195B /* Preview Assets.xcassets */; };
 		85E0DCC72CDE970900C4195B /* OTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0DCC62CDE970800C4195B /* OTPView.swift */; };
-		85E0DCC92CDE9E2700C4195B /* NetworkPostCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0DCC82CDE9E2700C4195B /* NetworkPostCall.swift */; };
+		85E0DCC92CDE9E2700C4195B /* NetworkCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0DCC82CDE9E2700C4195B /* NetworkCall.swift */; };
 		85E0DCCB2CDF3C0000C4195B /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E0DCCA2CDF3C0000C4195B /* NavView.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +23,7 @@
 		85E0DCBC2CDE8A8700C4195B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85E0DCBF2CDE8A8700C4195B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85E0DCC62CDE970800C4195B /* OTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPView.swift; sourceTree = "<group>"; };
-		85E0DCC82CDE9E2700C4195B /* NetworkPostCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPostCall.swift; sourceTree = "<group>"; };
+		85E0DCC82CDE9E2700C4195B /* NetworkCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCall.swift; sourceTree = "<group>"; };
 		85E0DCCA2CDF3C0000C4195B /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +61,7 @@
 				85E0DCCA2CDF3C0000C4195B /* NavView.swift */,
 				85E0DCBA2CDE8A8600C4195B /* LoginView.swift */,
 				85E0DCC62CDE970800C4195B /* OTPView.swift */,
-				85E0DCC82CDE9E2700C4195B /* NetworkPostCall.swift */,
+				85E0DCC82CDE9E2700C4195B /* NetworkCall.swift */,
 				85E0DCBC2CDE8A8700C4195B /* Assets.xcassets */,
 				85E0DCBE2CDE8A8700C4195B /* Preview Content */,
 			);
@@ -146,7 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85E0DCC92CDE9E2700C4195B /* NetworkPostCall.swift in Sources */,
+				85E0DCC92CDE9E2700C4195B /* NetworkCall.swift in Sources */,
 				85E0DCBB2CDE8A8600C4195B /* LoginView.swift in Sources */,
 				85E0DCB92CDE8A8600C4195B /* AisleTestApp.swift in Sources */,
 				85E0DCCB2CDF3C0000C4195B /* NavView.swift in Sources */,
